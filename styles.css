@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap');
 
 * {
     box-sizing: border-box;
@@ -9,9 +12,21 @@
 }
 
 .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: rgb(242, 146, 162);
-    height: 17vh;
+    height: 15vh;
 }
+
+.header-title {
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    font-size: 3.5em;
+    font-weight: 100;
+    color: rgb(10, 10, 44);
+}
+
 
 nav { 
     background-color: pink;
@@ -135,3 +150,58 @@ nav ul li:hover .dropdown {
     padding: 0rem;
   }
 
+  .admin {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    margin-top: -60px;
+    color: #051d49;
+    margin-bottom: 10px;
+}
+
+.admin_wrapper {
+    display: grid;
+    place-items: center;
+}
+
+
+.img_history {
+    display: grid;
+    height: fit-content;
+
+}
+
+#img_his {
+    margin-top: 35px;
+    height: 500px;
+    margin-left: 55px;
+    padding-bottom: 20px;
+}
+
+#img_his:hover {
+   box-shadow: 0 50px 80px rgba(0,0,0,.2);
+}
+
+
+.history_wrapper {
+    display: grid;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.history_text {
+    display: flex;
+    align-items: flex-end;
+    font-family: 'Montserrat', sans-serif;
+    color: #102b5d;
+    font-size: 22px;
+    text-align: justify;
+    text-justify: inter-word;
+    padding-left: 40px;
+    padding-right: 55px;
+    line-height: 30px;
+}
+
+.txt_history {
+    margin-top: 40px;
+}
